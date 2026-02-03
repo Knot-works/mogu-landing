@@ -1,0 +1,133 @@
+.howItWorks {
+  padding: var(--space-3xl) 0;
+  background: var(--color-bg);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: var(--space-2xl);
+}
+
+.label {
+  display: inline-block;
+  font-family: var(--font-accent);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: var(--space-sm);
+  padding-bottom: var(--space-xs);
+  border-bottom: 2px solid var(--color-primary);
+}
+
+.title {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  color: var(--color-text);
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: var(--space-lg);
+  position: relative;
+}
+
+.step {
+  flex: 1;
+  max-width: 280px;
+  text-align: center;
+  position: relative;
+}
+
+.stepNumber {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 28px;
+  height: 28px;
+  background: var(--color-primary);
+  color: white;
+  font-family: var(--font-accent);
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.stepEmoji {
+  width: 100px;
+  height: 100px;
+  margin: var(--space-md) auto;
+  background: var(--color-bg-alt);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  transition: all 0.3s var(--ease-out-expo);
+}
+
+.step:hover .stepEmoji {
+  transform: scale(1.1);
+  background: white;
+  box-shadow: 0 10px 30px rgba(232, 64, 79, 0.15);
+}
+
+.stepTitle {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: var(--space-xs);
+}
+
+.stepDescription {
+  font-size: 0.875rem;
+  color: var(--color-text-light);
+  line-height: 1.8;
+}
+
+.connector {
+  position: absolute;
+  top: 80px;
+  width: 60px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+  opacity: 0.3;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .howItWorks {
+    padding: var(--space-2xl) 0;
+  }
+
+  .container {
+    padding: 0 var(--space-md);
+  }
+
+  .steps {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-xl);
+  }
+
+  .step {
+    max-width: 100%;
+  }
+
+  .connector {
+    display: none;
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "nav": {
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "pricing": "Pricing",
+    "support": "Support",
+    "terms": "Terms",
+    "privacy": "Privacy"
+  },
+  "hero": {
+    "label": "AI Meal Planning App",
+    "title": "What's for dinner?",
+    "subtitle": "Chat with \"mogu\" AI to decide today's menu in seconds. Get personalized meal suggestions based on your mood and situation.",
+    "cta": "Start Free",
+    "ctaSub": "Up to 2 suggestions/day free"
+  },
+  "features": {
+    "label": "Features",
+    "title": "Plan meals with mogu",
+    "items": {
+      "chat": {
+        "title": "Chat-based Suggestions",
+        "description": "Just tell us your mood - hearty, light, quick, or healthy. AI suggests the perfect meal."
+      },
+      "personalized": {
+        "title": "Personalized for You",
+        "description": "Meat lover or seafood fan? mogu learns your preferences for better suggestions."
+      },
+      "sideDish": {
+        "title": "Side Dishes Too",
+        "description": "Once you pick a main, get side dish suggestions. Complete meal planning made easy."
+      },
+      "shoppingList": {
+        "title": "Shopping List",
+        "description": "Auto-generate shopping lists from your meal plan. Streamline your grocery runs."
+      }
+    }
+  },
+  "howItWorks": {
+    "label": "How It Works",
+    "title": "Easy 3 Steps",
+    "steps": {
+      "mood": {
+        "title": "Pick Your Mood",
+        "description": "Choose from hearty, light, quick, or healthy based on how you feel"
+      },
+      "category": {
+        "title": "Choose Ingredients",
+        "description": "Select meat, fish, or let mogu surprise you"
+      },
+      "decide": {
+        "title": "Get Your Meal!",
+        "description": "AI suggests perfect dishes. Not satisfied? Ask for more options"
+      }
+    }
+  },
+  "pricing": {
+    "label": "Pricing",
+    "title": "Simple Pricing Plans",
+    "free": {
+      "name": "Free",
+      "price": "0",
+      "unit": "",
+      "features": [
+        "Up to 2 suggestions/day",
+        "2 dishes shown",
+        "3-day history"
+      ],
+      "cta": "Start Free"
+    },
+    "premium": {
+      "name": "Premium",
+      "price": "4.80",
+      "unit": "/month",
+      "features": [
+        "Unlimited suggestions",
+        "3 dishes shown",
+        "Re-suggest & adjust",
+        "Side dish suggestions",
+        "Auto shopping list",
+        "Unlimited history",
+        "Ad-free"
+      ],
+      "cta": "Start Premium",
+      "popular": "Popular"
+    },
+    "annual": {
+      "name": "Annual",
+      "price": "38",
+      "unit": "/year",
+      "features": [
+        "All Premium features",
+        "~$3.17/month",
+        "Save 34%"
+      ],
+      "cta": "Start Annual",
+      "discount": "34% OFF"
+    }
+  },
+  "cta": {
+    "title": "Ask mogu what to eat today",
+    "description": "Make \"what should I eat?\" fun again. Try it free.",
+    "button": "Start Free"
+  },
+  "footer": {
+    "copyright": "© 2026 Knot. All rights reserved.",
+    "support": "Support",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy"
+  },
+  "support": {
+    "title": "Support",
+    "lastUpdated": "Last updated: February 4, 2026",
+    "contactTitle": "Contact Us",
+    "contactDescription": "If you have any questions or feedback, please feel free to contact us at the email address below.",
+    "responseTime": "We typically respond within 2-3 business days.",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1": {
+      "question": "What can I do with the free plan?",
+      "answer": "With the free plan, you can get up to 2 meal suggestions per day. You'll see 2 dish options and have access to the last 3 days of history."
+    },
+    "faq2": {
+      "question": "How do I cancel my Premium subscription?",
+      "answer": "Go to Settings > Apple ID > Subscriptions > mogu on your iPhone. You can continue using the service until the end of your billing period."
+    },
+    "faq3": {
+      "question": "Can I customize the meal suggestions?",
+      "answer": "Yes! You can select your mood (hearty, light, quick, healthy) and preferred ingredients (meat, fish) to get personalized suggestions."
+    },
+    "faq4": {
+      "question": "How do I delete my account?",
+      "answer": "Go to Settings in the app and select 'Delete Account'. All your data will be permanently deleted."
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: February 4, 2026",
+    "intro": "These Terms of Service govern your use of the smartphone application \"mogu\" (the \"Service\") provided by Knot (the \"Company\"). By using our Service, you agree to these terms.",
+    "sections": [
+      {
+        "title": "1. Application",
+        "content": "These Terms govern the conditions of use for the Service provided by the Company. Users shall use the Service in accordance with these Terms."
+      },
+      {
+        "title": "2. Registration",
+        "content": "Those who wish to use the Service shall apply for registration by agreeing to these Terms and following the Company's prescribed procedures. Registration is completed when approved by the Company.",
+        "list": [
+          "False information provided during registration",
+          "Application from someone who has previously violated these Terms",
+          "Any other case where the Company deems registration inappropriate"
+        ]
+      },
+      {
+        "title": "3. Service Description",
+        "content": "The Service is an AI-powered meal planning service. Users can receive meal suggestions from AI by inputting their mood and ingredient preferences."
+      },
+      {
+        "title": "4. Fees and Auto-renewal",
+        "content": "The following fees apply to using the Service:",
+        "list": [
+          "Monthly plan: $4.80/month",
+          "Annual plan: $38/year",
+          "Free plan allows up to 2 meal suggestions per day"
+        ],
+        "note": "Subscriptions auto-renew. Unless cancelled at least 24 hours before the end of the current period, subscriptions will automatically renew at the same price. You can manage and cancel subscriptions in iPhone Settings > Apple ID > Subscriptions > mogu."
+      },
+      {
+        "title": "5. Prohibited Activities",
+        "content": "Users shall not engage in the following activities:",
+        "list": [
+          "Activities that violate laws or public order",
+          "Criminal activities",
+          "Activities that may interfere with the operation of our Service",
+          "Unauthorized access attempts",
+          "Inappropriate AI inputs (violent, discriminatory, obscene content, etc.)",
+          "Commercial use of the Service"
+        ]
+      },
+      {
+        "title": "6. AI-Generated Content",
+        "content": "Meal suggestions provided by the Service are generated by AI. The Company does not guarantee the accuracy, completeness, or nutritional appropriateness of AI-generated content. Please consult a professional if you have allergies or health concerns."
+      },
+      {
+        "title": "7. Service Interruption",
+        "content": "The Company may suspend or interrupt all or part of the Service without prior notice in the following cases:",
+        "list": [
+          "Maintenance or updates to the computer systems for the Service",
+          "Force majeure events such as earthquakes, lightning, fire, or power outages",
+          "Computer or communication line failures",
+          "Any other case where the Company determines provision is difficult"
+        ]
+      },
+      {
+        "title": "8. Disclaimer",
+        "content": "The Company does not warrant that the Service is free from defects. The Company is not liable for any damages incurred by users through the Service."
+      },
+      {
+        "title": "9. Governing Law and Jurisdiction",
+        "content": "These Terms shall be governed by Japanese law. Any disputes arising from the Service shall be subject to the exclusive jurisdiction of the courts at the Company's headquarters."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: February 4, 2026",
+    "intro": "Knot (the \"Company\") establishes this Privacy Policy regarding the handling of users' personal information in the smartphone application \"mogu\" (the \"Service\") provided by the Company.",
+    "sections": [
+      {
+        "title": "1. Information We Collect",
+        "content": "We may collect the following information in providing the Service:",
+        "subsections": [
+          {
+            "title": "Information You Provide",
+            "list": ["Authentication information (Apple ID, Google Account, email address)", "Food preferences and settings", "Meal suggestion history"]
+          },
+          {
+            "title": "Automatically Collected Information",
+            "list": ["Device information (model, OS version)", "App usage data", "Error logs"]
+          }
+        ]
+      },
+      {
+        "title": "2. How We Use Information",
+        "content": "We use collected information for the following purposes:",
+        "list": [
+          "Providing and operating the Service",
+          "Providing personalized meal suggestions",
+          "Responding to user inquiries",
+          "Improving the Service and developing new features",
+          "Addressing violations of Terms of Service"
+        ]
+      },
+      {
+        "title": "3. Third-Party Disclosure",
+        "content": "We do not provide users' personal information to third parties except in the following cases:",
+        "list": [
+          "With user consent",
+          "When required by law",
+          "When necessary to protect life, body, or property",
+          "When providing to contractors within the scope necessary for Service operation"
+        ]
+      },
+      {
+        "title": "4. Information Security",
+        "content": "We appropriately manage users' personal information and take reasonable security measures to prevent unauthorized access, loss, destruction, alteration, or leakage."
+      },
+      {
+        "title": "5. Third-Party Services",
+        "content": "The Service uses the following third-party services:",
+        "table": {
+          "headers": ["Service", "Provider", "Purpose"],
+          "rows": [
+            ["Firebase Authentication", "Google LLC", "User authentication"],
+            ["Cloud Firestore", "Google LLC", "Data storage"],
+            ["OpenAI API", "OpenAI, Inc.", "Meal suggestion generation"],
+            ["RevenueCat", "RevenueCat, Inc.", "Subscription management"]
+          ]
+        }
+      },
+      {
+        "title": "6. Data Retention",
+        "content": "We retain users' personal information for the period necessary to achieve the purposes of use. When a user deletes their account, we will delete the relevant personal information within a reasonable period."
+      },
+      {
+        "title": "7. User Rights",
+        "content": "Users have the following rights:",
+        "list": [
+          "Right of access - Access to your personal information",
+          "Right of rectification - Correction of inaccurate personal information",
+          "Right of erasure - Deletion of personal information (available through account deletion)",
+          "Right of data portability - Obtaining your personal information"
+        ]
+      },
+      {
+        "title": "8. Children's Privacy",
+        "content": "The Service is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13."
+      },
+      {
+        "title": "9. Policy Changes",
+        "content": "We may change this Policy as necessary. We will notify users of significant changes within the Service."
+      },
+      {
+        "title": "10. Contact",
+        "content": "For inquiries about this Policy, please contact support@knotwith.com."
+      }
+    ]
+  }
+}
