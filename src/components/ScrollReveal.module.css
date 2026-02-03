@@ -1,0 +1,32 @@
+.reveal {
+  opacity: 0;
+  transition:
+    opacity 0.8s var(--ease-out-quart),
+    transform 0.8s var(--ease-out-quart);
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translate(0, 0) !important;
+}
+
+/* Direction variants */
+.up {
+  transform: translateY(40px);
+}
+
+.down {
+  transform: translateY(-40px);
+}
+
+.left {
+  transform: translateX(40px);
+}
+
+.right {
+  transform: translateX(-40px);
+}
+
+.none {
+  transform: none;
+}
