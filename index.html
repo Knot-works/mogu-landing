@@ -8,7 +8,17 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="mogu - AIキャラクター「もぐ」との対話で、今日の献立がすぐ決まる。気分やシチュエーションに合わせて、ぴったりの料理を提案します。" />
+    <meta name="author" content="Knot" />
     <meta name="theme-color" content="#E8404F" />
+    <title>mogu - AI献立提案アプリ</title>
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://mogu.knotwith.com/" />
+
+    <!-- Hreflang for multilingual -->
+    <link rel="alternate" hreflang="ja" href="https://mogu.knotwith.com/" />
+    <link rel="alternate" hreflang="en" href="https://mogu.knotwith.com/?lang=en" />
+    <link rel="alternate" hreflang="x-default" href="https://mogu.knotwith.com/" />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
@@ -16,6 +26,8 @@
     <meta property="og:title" content="mogu - AI献立提案アプリ" />
     <meta property="og:description" content="今日、なに食べる？AIキャラクター「もぐ」との対話で、今日の献立がすぐ決まる。" />
     <meta property="og:image" content="https://mogu.knotwith.com/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta property="og:site_name" content="mogu" />
     <meta property="og:locale" content="ja_JP" />
     <meta property="og:locale:alternate" content="en_US" />
@@ -27,12 +39,48 @@
     <meta name="twitter:description" content="今日、なに食べる？AIキャラクター「もぐ」との対話で、今日の献立がすぐ決まる。" />
     <meta name="twitter:image" content="https://mogu.knotwith.com/og-image.png" />
 
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "mogu",
+      "description": "AIキャラクター「もぐ」との対話で、今日の献立がすぐ決まる献立提案アプリ",
+      "applicationCategory": "LifestyleApplication",
+      "operatingSystem": "iOS",
+      "offers": {
+        "@type": "AggregateOffer",
+        "lowPrice": "0",
+        "highPrice": "480",
+        "priceCurrency": "JPY",
+        "offerCount": "3"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Knot",
+        "url": "https://knotwith.com"
+      },
+      "award": "技育CAMP 2026 最優秀賞"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "mogu",
+      "url": "https://mogu.knotwith.com",
+      "inLanguage": ["ja", "en"],
+      "publisher": {
+        "@type": "Organization",
+        "name": "Knot"
+      }
+    }
+    </script>
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet" />
-
-    <title>mogu - AI献立提案アプリ</title>
   </head>
   <body>
     <div id="root"></div>
