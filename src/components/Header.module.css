@@ -14,6 +14,13 @@
   box-shadow: 0 1px 0 var(--color-border);
 }
 
+.header.menuOpen,
+.header.menuOpen.scrolled {
+  background: var(--color-bg);
+  backdrop-filter: none;
+  box-shadow: none;
+}
+
 .inner {
   max-width: var(--max-width);
   margin: 0 auto;
